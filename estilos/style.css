@@ -1,0 +1,306 @@
+@media {
+	@font-face{
+	font-family:'rockfont';
+	src: local('Odin-Bold');
+   }
+   
+    html  {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	    overflow-x: hidden;
+	}
+   
+   table  {
+    table-layout: fixed;
+    width: 100%;   
+}
+	.container-fluid{
+		padding: 0;
+	}
+	
+	.imagen{
+		border-radius: 100%;
+	}
+	
+	html,
+	body {
+		margin:0;
+		padding:0;
+		background-color: white;
+		font-family: Helvetica, Arial, sans-serif;
+		color: #4A3715;
+		overflow-x: hidden;
+		position: relative;
+	}
+	
+	.esconderFooter{
+		display: none;
+	}
+	
+	.desenfoque{
+		//filter: blur(0.5rem);
+	}
+	
+	.desenfoqueRes{
+		filter: blur(3px);
+	}
+	#todo {
+		width: 100%;
+		margin: 0 auto;
+	
+	}
+	header {
+		min-height:50px;
+		padding-top:5px;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	.titulo{
+		font-family: 'Fredoka One';
+		font-size: 2em;
+		
+	}
+	
+	.menu{
+		position: absolute;
+		top: 9px;
+		left: 3%;
+	}
+	
+	.login{
+		position: absolute;
+		right: 3%;
+		top: 3px;
+		text-overflow: ellipsis;
+  		white-space: pre;
+		
+		
+	}
+	
+	h1{
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	
+	header .titulo a, 
+	header .titulo a:hover, 
+	header .titulo a:visited{
+		text-decoration:none;	
+		color:#4A3715;
+	}
+	
+	a{
+		color:#4A3715;
+	}
+	
+	
+	
+	.contenido{
+		display: flex;
+		flex-direction:row;
+		flex-wrap: no-wrap;
+	}
+	
+	/*Estilos de las estrellas de puntuación*/
+
+    .rate-popover {
+      color: #c4c4c4;
+    }
+
+    .oneStar {
+      color: #3d381c;
+    }
+
+    .twoStars {
+      color: #6d6126;
+    }
+
+    .threeStars {
+
+      color: #c2aa36;
+    }
+
+    .fourStars {
+      color: #e2c327;
+    }
+
+    .fiveStars {
+      color: #f3cb06;
+    }	
+	
+	.mostrar{
+		left: 0;
+		width: 200px;
+		max-width: 200px;
+		z-index: 3;
+	}
+	
+	li{
+		font-family: Helvetica, Arial, sans-serif;
+		font-style: italic;
+	}
+	
+	article > *:not(.carrusel){
+		flex: 1 1 80%;
+		padding: 30px 5%; 
+	}
+	
+	p {
+		margin:0px;
+		padding:0px;
+	}
+	
+	.error{
+		color: red;
+		display: inline;
+	}
+	
+	article div.par{
+		background-color: #52e0cb;
+		color:black;
+	} 
+	 
+	article div.impar{
+		background-color: blue;
+		color:white;
+	} 
+	
+	
+	.pager{
+		background-color: white;
+		color:black;
+	}
+	
+	.pager .izq{
+		float: left;
+		//width: 40%;
+		padding-left: 5px;
+		color: green; 
+	}
+	
+	.pager .der{
+		float: right;
+		//width: 58%;
+		text-align: right;
+		padding-right: 5px;' 
+	}
+	
+	.pager .der a{
+		text-decoration: none;
+		color:green;
+	}
+	.pager .der a:hover{
+		text-decoration: none;
+		color:red;
+	}
+	
+	.pager .final{
+		clear: both;
+	}
+	
+	/*definiciones de tabla para
+	 * el objeto CGrid con el estilo
+	 * por defecto clase tabla
+	 */
+	
+	div.tabla{
+        width: 100%;
+		overflow: auto;
+	}
+	div.tabla table.tabla{
+		background-color: #b6c7cd;
+		border-collapse: collapse;
+	}
+	
+	div.tabla table.tabla th{
+		background-color: blue;
+		color:white;
+	}
+	
+	div.tabla table.tabla tr.par{
+		background-color: #edd8d8;
+		color:black;
+	}
+	div.tabla table.tabla tr.impar{
+		background-color: #f8f0d6;
+		color:black;
+	}
+	
+	div.tabla table.tabla tr td{
+		padding: 2px;
+	}
+	
+	nav{
+		background-color: white;
+	}
+	
+	.enlaces{
+		color: black;
+	}
+	
+	.enlacesFooter{
+		color: #F2EAD0;
+	}
+	
+	.enlacesFooter:link{
+		text-decoration: none;
+	}
+	
+	.enlacesFooter:hover{
+		color: #F2EAD0;
+	}
+	
+	/*
+	 * Definiciones de tabla para
+	 * el objeto CGrid con estilo 
+	 * propio
+	 */
+	table.tabla1{
+		background-color: #b6c7cd;
+		border-collapse: collapse;
+	}
+	
+	table.tabla1 th{
+		background-color: blue;
+		color:white;
+		border: 2px solid black;
+	}
+	
+	table.tabla1 tr.par{
+		background-color: #edd8d8;
+		color:black;
+		border: 1px solid black;
+	}
+	table.tabla1 tr.impar{
+		background-color: #f8f0d6;
+		color:black;
+		border: 1px solid black;
+	}
+	
+	table.tabla1 tr td{
+		padding: 2px;
+		border: 2px solid black;
+	}
+	
+	.error-template {
+		padding: 40px 15px;text-align: center;
+	}
+	.error-actions {
+		margin-top:15px;margin-bottom:15px;
+	}
+	.error-actions .btn {
+		margin-right:10px;
+	}
+	
+}
+
+@media screen and (max-width:400px){
+	.contenido{
+		flex-direction:column;
+	}
+	
+}
